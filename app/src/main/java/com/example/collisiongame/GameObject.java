@@ -1,0 +1,9 @@
+package com.example.collisiongame;
+
+import android.graphics.Canvas;
+
+public interface GameObject {
+
+    public void draw(Canvas canvas);
+    public void update();
+}
